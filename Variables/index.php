@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your first php tag</title>
+    <title>Variables</title>
 </head>
 <body>
     <h1>Hello World!!!</h1>
 
     <h2>
+
     <?php 
-        echo "Hello World to Php";
+        // Php code
+        $greeting = "Hello World,";
+        echo $greeting . " " . "to Php";
+        echo "<br> $greeting Everybody";
     ?>
+    
     </h2>
 </body>
 </html>
