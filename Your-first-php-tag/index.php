@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>Hello World!!!</h1>
+
+    <h2>
+    <?php 
+        echo "Hello World to Php";
+    ?>
+    </h2>
 </body>
 </html>
